@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    long long sum=1;
+	long long Sn=0;
+	int a;
+	int n;
+	scanf("%d",&n);
+	for(a=1;a<=n;a++)
+	{
+		sum*=a;
+		Sn+=sum;
+	}
+	printf("%d",Sn);
+    return 0;
+}
